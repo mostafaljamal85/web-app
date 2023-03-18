@@ -1,7 +1,7 @@
 fetch('https://testpublishapi.onrender.com/')
       .then(response => response.json())
       .then(json => {
-        var _employee=document.querySelector(".swiper-wrapper")
+        var _employee=document.getElementById("employee")
       for (let i = 0; i < json.length; i++) {
       
         var _div=document.createElement("div")
