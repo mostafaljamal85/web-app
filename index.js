@@ -3,7 +3,6 @@ fetch('https://testpublishapi.onrender.com/')
       .then(json => {
         var _employee=document.getElementById("employee")
       for (let i = 0; i < json.length; i++) {
-      
         var _div=document.createElement("div")
             _div.className= "swiper-slide";
             _div.innerHTML=`
@@ -19,10 +18,5 @@ fetch('https://testpublishapi.onrender.com/')
         </div>
       `
       _employee.appendChild(_div)
-
-    //   console.log(_div)
-
       }
-
-      console.log(_employee)
       })
