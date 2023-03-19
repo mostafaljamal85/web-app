@@ -4,7 +4,7 @@ fetch('https://fakestoreapi.com/products')
         console.log(json)
         var _product=document.getElementById("product")
 
-       for (let i = 0; i < json.length; i++) {
+       for (let i = 0; i < 9; i++) {
         var _div2=document.createElement("div")
         _div2.className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0"
         _div2.innerHTML=`
