@@ -9,7 +9,7 @@ fetch('https://fakestoreapi.com/products')
         _div2.className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0"
         _div2.innerHTML=`
         <div class="card">
-             <img src="${json[i].image}" class="card-img-top  h-25 mx-auto d-flex " alt="..." >
+             <img src="${json[i].image}" class="card-img-top  h-25 mx-auto d-flex  " alt="..." >
              <div class="card-body">
                <h5 class="card-title"><a href=""><b>Category : </b>${json[i].category}</a></h5>
                <h5 class="card-title"><a href=""><b>Price : </b>${json[i].price} $</a></h5>
