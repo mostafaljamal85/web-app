@@ -8,7 +8,7 @@ fetch('https://testpublishapi.onrender.com/')
             _div1.innerHTML=`
                 <div class="member">
                 <div class="member-img">
-                    <img src=${json[i].image} class="img-fluid" alt="">
+                    <img src=${json[i].image} class="img-fluid" alt="${json[i].alt}">
                     <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
