@@ -6,7 +6,7 @@ fetch('https://testpublishapi.onrender.com/')
       for (let i = 0; i < json.length; i++) {
         var _div=document.createElement("div")
         _div.className= "swiper-slide";
-        _div.style.width="100px"
+        // _div.style.width="100px"
       var content=`
       <div class="testimonial-item">
         <img src=${json[i].image} class="testimonial-img" alt="">
